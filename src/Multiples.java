@@ -1,15 +1,13 @@
 public class Multiples {
     public static void main(String[] args) {
 
-        int counter = 0;
         int x = 1;
+        int counter = 0;
 
         while (x < 1000)
         {
-            boolean divisibleBy3 = x % 3 == 0;
-            boolean divisibleBy5 = x % 5 == 0;
-
-            if (divisibleBy3 || divisibleBy5)
+   
+            if (x % 3 == 0 || x % 5 == 0)
             {
                 counter++;
             }

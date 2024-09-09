@@ -1,5 +1,6 @@
 public class Reduce {
     public static void main(String[] args) {
+
         int n = 100;
         int counter = 0;
 
