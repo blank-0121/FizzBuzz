@@ -6,12 +6,10 @@ public class Multiples {
 
         while (x < 1000)
         {
-   
             if (x % 3 == 0 || x % 5 == 0)
             {
                 counter++;
             }
-
             x++;
         }
 
